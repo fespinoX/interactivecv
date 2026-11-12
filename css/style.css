@@ -190,6 +190,19 @@ Work
 .work-title {
 	font-family: var(--highlight-font);
 	font-size: 36px;
+	font-weight: 600;
+}
+
+.work-link {
+	display: inline-block;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: var(--muted-color);
+}
+
+.work-link:hover {
+	color: var(--primary-color);
 }
 
 
